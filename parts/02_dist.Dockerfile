@@ -1,6 +1,7 @@
 RUN mkdir /opt/dck1c
 
 ADD ./dist/ /opt/dck1c/
+ADD ./dist1c/ /opt/dck1c/
 ADD ./start.sh /opt/dck1c/
 ADD ./config.sh /opt/dck1c/config.sh
 ADD ./VERSION /opt/dck1c/VERSION
